@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+.container{
+  background-image: url(./img/1.jpg);
+  image-resolution: clear;
+  height: 100%;
+  width: 100%;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid rgb(155, 148, 148);
+  border-radius: 9px;
+  cursor: pointer;
+  background: rgb(255, 250, 255);
+}
+.button:hover{
+  background-color: rgb(229, 255, 0);
+   
+}
+
+.btn-row{
+  margin: 8px 0;
+}
+
+.row input{
+  width: 294px;
+  font-size: 20px;
+  margin: 0;
+  color: white;
+  padding: 7px 2px;
+  border: 2px solid rgb(160, 191, 160);
+  border-radius: 15px;
+  background: rgb(179, 153, 179);
+}
+
+.row input:hover{
+  background-color: rgb(140, 133, 133);
+  transition-delay: right .3s;
+}
+
+.center{
+  color: rgb(238, 225, 225);
+  font-style: bold;
+}
+
+
+
